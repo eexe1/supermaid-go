@@ -6,12 +6,6 @@ import (
 	"net/http"
 )
 
-type Booking struct {
-	Slug  string `json:"slug"`
-	Title string `json:"title"`
-	Body  string `json:"body"`
-}
-
 func BookingRoutes() *chi.Mux {
 	router := chi.NewRouter()
 	router.Put("/", CreateBooking)
