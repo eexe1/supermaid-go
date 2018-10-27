@@ -1,17 +1,17 @@
 package model
 
 type Booking struct {
-	OrderID  string `json:"orderid"`
-	SID string `json:"sid"`
+	OrderID  string `json:"orderid,omitempty"`
+	SID string `json:"sid,omitempty"`
 	Name  string `json:"name"`
-	RD1  string `json:"name"`
-	CreateDate  string `json:"name"`
-	PostDate  string `json:"name"`
-	Phone  string `json:"name"`
-	Phone2  string `json:"name"`
-	Email  string `json:"name"`
-	RD3  string `json:"name"`
-	RD4  string `json:"name"`
-	Address  string `json:"name"`
-	Note  string `json:"name"`
+	RD1  string `json:"rd1"`
+	CreateDate  string `json:"createDate"`
+	PostDate  string `json:"postDate"`
+	Phone  string `json:"phone"`
+	Phone2  string `json:"phone2"`
+	Email  string `json:"email"`
+	RD3  string `json:"rd3"`
+	RD4  string `json:"rd4"`
+	Address  string `json:"address"`
+	Note  string `json:"note"`
 }
