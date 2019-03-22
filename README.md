@@ -1,2 +1,2 @@
-# supermaid-go
-API services for Supermaid
+# go-api-example
+API services
